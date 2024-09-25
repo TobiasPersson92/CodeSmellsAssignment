@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeSmellsAssignment.Common\CodeSmellsAssignment.Common.csproj" />
+    <ProjectReference Include="..\CodeSmellsAssignment.ConsoleIO\CodeSmellsAssignment.ConsoleIO.csproj" />
+    <ProjectReference Include="..\CodeSmellsAssignment.Data\CodeSmellsAssignment.Data.csproj" />
+    <ProjectReference Include="..\CodeSmellsAssignment.Logic\CodeSmellsAssignment.Logic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
